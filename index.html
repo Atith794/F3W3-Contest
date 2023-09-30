@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>F3W3 Contest</title>
+  </head>
+  <body>
+    <div id="first">
+      <section id="current-image-container"></section>
+    </div>
+    <div id="POTD">
+      <h2><b>Search for picture of the day</b></h2>
+      <form id="search-form" action="submit.php" method="post">
+        <label for="search-input">Select a Date:</label>
+        <input type="date" id="search-input" name="selected-date" required />
+        <button id="btn" type="submit">Submit</button>
+      </form>
+    </div>
+    <div id="head2">
+      <h2 id="heading2"><b>Previous searches</b></h2>
+    </div>
+
+    <div id="search-history"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

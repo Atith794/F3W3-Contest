@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#first{
+    background-color: black;
+    color: white;
+    padding: 2rem;
+    margin: 1rem;
+}
+
+#img1{
+    padding: 1rem;
+    max-width: 100%;
+    height: auto;
+}
+
+#head2{
+    padding: 1rem;
+    margin: 1rem;
+}
+
+#search-history{
+    margin: 1rem;
+}
+
+#POTD{
+    padding: 1rem;
+    margin: 0.5rem;
+    
+}
+
+#head3{
+    padding: 0.5rem;
+}
+
+#current-image-container{
+    max-width: 100%;
+}
